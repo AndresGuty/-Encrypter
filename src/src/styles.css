@@ -27,6 +27,26 @@ body {
     padding: 30px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
+
+
+/* boton Encriptar */
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
 .text-box h4{
     margin: 10px;
     font-family: 'Inter';
@@ -50,3 +70,4 @@ body {
     margin-left:70px;
 
 }
+
