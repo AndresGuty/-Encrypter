@@ -27,7 +27,7 @@ body {
     padding: 30px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
-<<<<<<< HEAD
+
 
 /* boton Encriptar */
 .encriptar{
@@ -46,7 +46,7 @@ body {
     flex-grow: 0;
 }
 
-=======
+
 .text-box h4{
     margin: 10px;
     font-family: 'Inter';
@@ -69,4 +69,4 @@ body {
     margin-left:70px;
 
 }
->>>>>>> 29a56bb60736f2bac2c7ee017cc22693dae66a48
+
