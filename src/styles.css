@@ -39,18 +39,19 @@ body {
 /* boton Encriptar */
 .encriptar{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
     width: 328px;
     height: 67px;
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
+    background: #0A3871;
+    border: 1px solid;
     border-radius: 24px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    
 }
 
 
