@@ -34,23 +34,35 @@ body {
     padding-right: 30px;
 }
 
-
-
-/* boton Encriptar */
-.encriptar{
+.buttons {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
+    justify-content: center;
+    align-items: end;
+    height: 810px;
+    gap: 20px;
+}
+
+/* boton Encriptar */
+.button-encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background: #0A3871;
+    text-align: center;
+    color: #FFFFFF;
+    row-gap: 50px;
+
+}
+
+.button-desencriptar {
     width: 328px;
     height: 67px;
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    color: #0A3871;
+
 }
 
 
