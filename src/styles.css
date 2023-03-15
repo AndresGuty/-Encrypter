@@ -15,6 +15,7 @@ body {
 
 .container {
     float: right;
+
 }
 
 .text-box {
@@ -23,7 +24,7 @@ body {
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     width: 400px;
-    height: 944px;
+    height: 880px;
     left: 1000px;
     top: 40px;
     margin-right:20px ;
@@ -37,23 +38,36 @@ body {
 
 
 /* boton Encriptar */
-.encriptar{
+.buttons {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
+    justify-content: center;
+    align-items: end;
+    height:810px;
+    gap: 20px;
+}
+
+.button-encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background:#0A3871;
+    padding: px;
+    text-align:center;
+    color: #FFFFFF;
+    row-gap: 50px;
+
+}
+.button-desencriptar {
     width: 328px;
     height: 67px;
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    color: #0A3871;
 }
 
-
+/* Espacio text-Box  */
 .text-box h4{
     margin: 10px;
     font-family: 'Inter';
@@ -77,3 +91,4 @@ body {
     margin-left:70px;
 
 }
+
