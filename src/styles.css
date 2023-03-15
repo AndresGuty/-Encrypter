@@ -75,7 +75,7 @@ body {
     height: 67px;
     border-radius: 24px;
     background: #0a3871;
-    padding: auto ;
+    padding: 0;
     text-align: center;
     color: #FFFFFF;
     row-gap: 50px;
