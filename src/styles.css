@@ -39,12 +39,17 @@ body {
 
 /* boton Encriptar */
 .buttons {
-    display: flex;
+     display:inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: end;
     height:810px;
-    gap: 20px;
+    gap: 20px; 
+    position: relative;
+    top: auto;
+    left: 40px;
+    
+    
 }
 
 .button-encriptar {
@@ -56,6 +61,7 @@ body {
     text-align:center;
     color: #FFFFFF;
     row-gap: 50px;
+    
 
 }
 .button-desencriptar {
@@ -89,5 +95,6 @@ body {
 .icon {
     margin-top: 40px;
     margin-left:70px;
+
 }
 
