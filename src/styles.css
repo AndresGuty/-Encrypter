@@ -1,16 +1,15 @@
 /* Codigo para resetear estilos del navegador */
 * {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 body {
-    background-color: #F3F5FC
-    ;
+    background-color: #F3F5FC;
 }
 
 .container {
@@ -26,8 +25,9 @@ body {
     height: 890px;
     left: 1000px;
     top: 40px;
-    margin-right:20px ;
+    margin-right: 20px;
 }
+
 .muñeco {
     padding-top: 240px;
     padding-left: 30px;
@@ -38,8 +38,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
     gap: 20px;
+    position: relative;
+    top: 45em;
 }
 
 /* boton Encriptar */
@@ -64,15 +65,33 @@ body {
 
 }
 
-.icon-exclamation {
+.icon-text-exclamation {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 180px;
+    justify-content: center;
+    position: relative;
+    top: 44em;
+    padding-right: 400px;
+    gap: 15px
+}
+
+.icon-text-exclamation p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
 }
 
 
-.text-box h4{
+/* .text-exclamation {
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 44em;
+    padding-right: 300px;
+} */
+
+.text-box h4 {
     margin: 10px;
     font-family: 'Inter';
     text-align: center;
@@ -81,7 +100,8 @@ body {
     font-size: 24px;
     line-height: 120%;
 }
-.text-box p{
+
+.text-box p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -92,5 +112,5 @@ body {
 
 .icon {
     margin-top: 40px;
-    margin-left:70px;
+    margin-left: 70px;
 }
