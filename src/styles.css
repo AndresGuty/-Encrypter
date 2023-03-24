@@ -55,13 +55,14 @@ body {
 
 }
 
-.button-desencriptar {
+.button-desencriptar{
     width: 328px;
     height: 67px;
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
+    
 
 }
 
