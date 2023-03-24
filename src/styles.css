@@ -14,7 +14,6 @@ body {
 
 .container {
     float: right;
-
 }
 
 .text-box {
@@ -35,9 +34,6 @@ body {
     padding-right: 30px;
 }
 
-
-
-/* boton Encriptar */
 .buttons {
     display: flex;
     flex-direction: row;
@@ -49,17 +45,18 @@ body {
     top: 45em;
 }
 
+/* boton Encriptar */
 .button-encriptar {
     width: 328px;
     height: 67px;
     border-radius: 24px;
-    background:#0A3871;
-    padding: px;
-    text-align:center;
+    background: #0A3871;
+    text-align: center;
     color: #FFFFFF;
     row-gap: 50px;
 
 }
+
 .button-desencriptar {
     width: 328px;
     height: 67px;
@@ -67,6 +64,7 @@ body {
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
+
 }
 
 /* Espacio text-Box  */
